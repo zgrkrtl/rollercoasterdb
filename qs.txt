@@ -1,0 +1,34 @@
+1- Show the rollercoasters whose height greater than 70ft and status is closed?
+2- Show the jungle theme rollercoasters whose height greater than 10ft ?
+3- What is the average speed of rollercoasters?
+4- Show the rollercoasters whose g-force less than 3.8?
+5- Show the rollercoasters whose g-force bigger than 3.8 and designed by Walt Disney Imagineering?
+6- What is the count of rollercoasters whose status is closed?
+7- Find the rollercoaster with maximum speed(km/h)?
+8- Show the rollercoasters whose location Canada's Wonderland and status is operating?
+9- Show the rollercoasters whose height restriction less than 45in and production type is steel?
+10- Find the rollercoaster with minimum height(ft)?
+11- Bring location ids where rollercoaster's year_introduced is greater than 1925
+12- Show the total hourly capacities of each rollercoaster along with their corresponding locations?
+For our project, we've opted for MySQL 8.0 as our primary database platform due to its widespread adoption, mature feature set, and excellent performance. MySQL aligns well with our project's needs for relational database management and scalability.
+Implementation Details:
+
+Hardware Infrastructure: Our database will reside on a dedicated server with robust specifications, including a multi-core processor, 128GB of RAM, and SSD storage. This hardware configuration aims to deliver optimal database performance and responsiveness.
+
+Operating System: MySQL will operate on a Linux-based system, leveraging the stability and security features of Ubuntu Server 22.04 LTS. The compatibility between MySQL and Linux ensures a reliable environment for our database operations.
+
+Database Schema: We've designed a normalized database schema utilizing Entity-Relationship Diagrams (ERDs) to define relationships between entities. Normalization helps in minimizing redundancy and maintaining data integrity.
+
+Performance Optimization: We plan to optimize the database performance through query caching, indexing on frequently accessed columns, and employing MySQL's built-in query optimization tools. Regular monitoring and profiling will assist in identifying bottlenecks for fine-tuning.
+
+Challenges and Mitigation:
+
+Scalability: As data volume grows, scaling the database could become a challenge. To mitigate this, we'll implement sharding techniques, horizontal partitioning, and database clustering to distribute data across multiple servers efficiently.
+
+Security Measures: Ensuring data security is vital. We'll enforce stringent access controls, use encrypted connections (SSL/TLS), regularly apply security patches, and conduct periodic security audits to safeguard sensitive information.
+
+Backup and Recovery: Implementing a robust backup and recovery strategy is crucial. 
+Scheduled backups to both local and remote locations, along with point-in-time recovery capabilities,
+ will be set up to minimize potential data loss and ensure business continuity.
+
+Our plan involves sourcing the dataset from Kaggle, a reputable platform hosting various datasets on diverse topics. The Kaggle dataset we've selected pertains to [specify the dataset topic or name]. The data is available in CSV format, which is a commonly used file format for tabular data and is highly compatible with most database systems.
